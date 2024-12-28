@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #92ace1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 .app-container {
-  background-color: #f8f9fa;
+  background-color: #86b2de;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
 }
 
 .content-wrapper {
-  background: #ffffff;
+  background: #d9d2d2;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -65,5 +65,5 @@
 }
 
 .table-hover tbody tr:hover {
-  background-color: #f1f1f1;
+  background-color: #6c6161;
 }
