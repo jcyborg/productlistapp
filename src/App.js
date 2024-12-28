@@ -12,7 +12,8 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5173/api/Products");
+        // const response = await fetch("http://localhost:5173/api/Products");
+        const response = await fetch("https://productlist-hbevezdvgyftadh8.eastus2-01.azurewebsites.net/api/products");
         const result = await response.json();
         console.log("Data received from API:", result);
         setData(result);
