@@ -26,7 +26,7 @@ const App = () => {
     fetchData();
   }, []);
   
-
+//
   const handleSearch = (e) => {
     const searchQuery = e.target.value.toLowerCase();
     setQuery(searchQuery);
